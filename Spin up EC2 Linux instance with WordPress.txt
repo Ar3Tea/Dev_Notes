@@ -1,0 +1,23 @@
+Spin up EC2 Linux instance 
+
+Check Security Groups
+Add Rules for HTTP port 80
+Add Rules for SSH
+Add additional HTTP rule for other ports
+
+SSH into instance using details provided. Click "Connect" in dashboard to get the info if needed
+
+Follow normal steps to install Apache, MySQL, PHP:
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04#how-to-find-your-server-39-s-public-ip-address
+
+Follow normal steps to install WordPress
+https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lamp-on-ubuntu-16-04
+
+
+A few speedbumps that may come up --
+
+When using additional ports to serve different pages, make sure security groups has rule added to allow this
+Listening ports in 000-default.conf need to be added as well as new <VirtualHost> rules for the new port
+Make sure ServerName IP/Domain is added to apache2.conf
+double check in prots.conf to allow port listening for multiple pages on 1 instance
+
