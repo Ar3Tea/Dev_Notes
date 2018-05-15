@@ -1,0 +1,13 @@
+Taking files from local machine to remote server:
+
+use scp
+identify pub key -- -i ~/path/to/key
+insert file -- ~/path/to/file
+enter remote host credentials -- username@server_ip
+
+must drop file in home folder first, then move with root privilages once logged in
+
+sudo scp -i ~/path/to/key ~/path/to/file username@server_ip:.   <---makes file transfer to home on server
+
+Move File to proper directory:
+mv filename /path/to/directory
