@@ -1,0 +1,33 @@
+Some React Terms and Processes to Remember:
+
+Components -- class MyComponent extends React.Component {}
+
+This -- this.method will usually refer to the method defined
+
+Props -- the object holding the information behind a component, when a component passes this information to another, it's called "giving props" lovingly
+
+Import/Export -- using components from multiple files must be exported from the file and imported into the one being used:
+
+import MyFunc from './MyFile'
+export class MyFunc extends React.Component {}
+
+Components can render other components - may sometimes need import/export depending on componenet location
+
+ReactDOM.render(const, document.getElementById('app')
+ReactDOM.render(<component />, document.getElementByID('app)
+
+Const -- variable
+Class -- component
+
+class MyClass extends React.Component {
+	render() {
+	   const myConst = 
+
+	return (
+	  <div></div>
+	);
+     }
+  }
+
+Component first letter capital
+Const cameCase
