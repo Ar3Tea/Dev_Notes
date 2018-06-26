@@ -2,7 +2,7 @@
 
 SSH into server using details provided. Click "Connect to Console" in DO dashboard to get the info if needed
 
-Follow normal steps to install Apache, MySQL, PHP:
+Follow normal steps to install NGINX, MySQL, PHP:
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
 
 Follow normal steps to create a self-signed cert if you are waiting on DNS to propagate:
