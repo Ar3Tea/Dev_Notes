@@ -8,7 +8,7 @@ Props -- the object holding the information behind a component, when a component
 
 Import/Export -- using components from multiple files must be exported from the file and imported into the one being used:
 
-```React.js
+```
 import MyFunc from './MyFile'
 export class MyFunc extends React.Component {}
 ```
