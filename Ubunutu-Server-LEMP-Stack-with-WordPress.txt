@@ -17,8 +17,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-l
 
 A few speedbumps that may come up --
 
-Always make sure to restart or reload nginx -- sudo systemctl restart/reload nginx
-Always check to make sure edits have been implemented properly -- sudo nginx -t
-You may run into some issues when installing PHP, be sure to update -- sudo apt-get update -- and upgrade sudo apt-get upgrade -- and in rare cases -- sudo apt-get dist-upgrade. Once all is upgraded/updated the PHP packages should install as normal.
+Always make sure to restart or reload nginx -- `sudo systemctl restart` `sudo systemctl reload nginx`
+Always check to make sure edits have been implemented properly -- `sudo nginx -t`
+You may run into some issues when installing PHP, be sure to update -- `sudo apt-get update` -- and upgrade `sudo apt-get upgrade` -- and in rare cases -- `sudo apt-get dist-upgrade`. Once all is upgraded/updated the PHP packages should install as normal.
 Certain additional PHP packages may not install due to dependencies. the one offender I found was php-mcrypt, but this is not necessary yet.
 When you install plugins or need updates to WordPress be sure to install dependcies your system will say you need when installing/updating
