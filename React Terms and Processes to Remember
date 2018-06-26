@@ -8,8 +8,10 @@ Props -- the object holding the information behind a component, when a component
 
 Import/Export -- using components from multiple files must be exported from the file and imported into the one being used:
 
-```import MyFunc from './MyFile'
-export class MyFunc extends React.Component {}```
+```
+import MyFunc from './MyFile'
+export class MyFunc extends React.Component {}
+```
 
 Components can render other components - may sometimes need import/export depending on componenet location
 
@@ -19,7 +21,8 @@ ReactDOM.render(<component />, document.getElementByID('app)
 Const -- variable
 Class -- component
 
-```class MyClass extends React.Component {
+```
+class MyClass extends React.Component {
 	render() {
 	   const myConst = 
 
@@ -27,7 +30,8 @@ Class -- component
 	  <div></div>
 	);
      }
-  }```
+  }
+  ```
 
 Component first letter capital
 Const cameCase
