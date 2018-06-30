@@ -23,5 +23,8 @@ You may run into some issues when installing PHP, be sure to update -- `sudo apt
 Certain additional PHP packages may not install due to dependencies. the one offender I found was php-mcrypt, but this is not necessary yet.
 When you install plugins or need updates to WordPress be sure to install dependcies your system will say you need when installing/updating
 
+UPgarding and Updating:
 Upgrade and updates need access using sudo chown -R www-data /var/www/html
 When the upgrades/updates are complete remove access for security sudo chown -R username /var/www/html
+
+Always remember to restart PHP after making changes -- sudo systemctl php7.2-fpm
