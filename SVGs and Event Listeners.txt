@@ -1,0 +1,4 @@
+When working with SVGs on pages with even listeners always be sure to find out what program the SVG was created in
+In certain situations the Event Listeners will be coded to the exact output of a specific program E.g. Adobe Illustrator, Inkscape, etc.
+
+<g> tags for grouping will separate into categories for the event listener to respond to
