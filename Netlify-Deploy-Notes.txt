@@ -1,0 +1,10 @@
+When deploying to Netlify, builds need to be inspected before deployment.
+If you miss something simple like syntax in your package.json your build will fail.
+
+There are logs in Netlify to check but you will not always get enough information from them to act on.
+
+Common build fails:
+
+package.json has errors
+file structure is not correct
+development deploy had warnings or errors that you can ignore locally but will fail a build
