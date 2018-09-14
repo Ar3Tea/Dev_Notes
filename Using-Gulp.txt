@@ -1,0 +1,11 @@
+Gulp can work for hot reloading and workflows using shopify
+I was using beanstalk that can connect to shopify as the repo with a combination of gulp and browsersynch
+
+ensure node does not have any weird global permissions, this will cause some EACCESS errors when trying certain mkdir during install
+if you run into these errors you should refer to changing these node permissions
+
+in my case reinstalling node was the best option to assert the right permission from the start
+
+running into an error that stops gulp because "device out of space" means you need to rais the max-watch
+
+when first cloning rpose, leave errors and missing dependencies as is, many things relied on these seemingly broke pieces in my situation to run successfully
