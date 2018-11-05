@@ -1,0 +1,14 @@
+Using Liquid and Shopify is a bit of a step away from what you're used to. There is a lot of Admin area config that is needed. Put simply, you'll need to "wire" things up in Admin, and then use them in your code.
+
+Remember Liquid functions mostly like JavaScript, but is also used as a placeholder. These placeholders will render what you tell it to, but can also be used like JS in the sense of For Loops and If logic.
+
+{{ comment }}
+{{ endcomment }}
+
+{% snippets %}
+
+{{ elements | pipe to add | rules }}
+
+In large code bases, adding your new style to the "base.scss" or whatever file hold the @includes for the site's styles
+
+Metafileds can be added and used with a Chrome extension. Metafields offer a different way to pull in and display information. Images, text, descriptions, an key:value pairs can be used 
